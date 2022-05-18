@@ -1,0 +1,179 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.h-container{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.h-container>h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+.b-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    margin: 0 5%;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.overlay {
+    position: absolute; 
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2; 
+
+  }
+
+  .card>h5{
+      font-size: 16px;
+      color: white;
+      font-weight: 600;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      letter-spacing: 1px;
+      z-index: 3;
+  }
+
+  .card>h3{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    letter-spacing: 1px;
+    z-index: 3;
+}
+.indc-container {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    letter-spacing: 1px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indc {
+    height: 10px;
+    width: 10px;
+    background-color: turquoise;
+    border-radius: 100px;
+
+}
+.indc-container>p {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px;
+}
+
+.email-container{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    letter-spacing: 1px;
+    z-index: 3;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.email-container>i{
+    padding-right: 10px;
+}
+
+.phone-container{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    letter-spacing: 1px;
+    z-index: 3;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.phone-container>i{
+    padding-right: 10px;
+}
+
+.address-bar{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    z-index: 3;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.address-bar>span{
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 10%;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.address-bar>span>i{
+    padding-right: 10px;
+}
+
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 0 10%;
+}
+.f-container>*{
+    margin: auto 0;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
